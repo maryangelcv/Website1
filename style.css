@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navigation */
+nav {
+    background-image: url('https://st.depositphotos.com/1817276/1883/v/450/depositphotos_18835827-stock-illustration-pink-lines-on-black-background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 190px;
+    text-align: center;
+    
+}
+
+.logo{
+    width: 50px;
+    height: 40px;
+}
+nav ul li .anchor:hover {
+    color:rgb(244, 180, 192) ;
+    text-decoration: underline rgb(244, 180, 192);
+}
+
+#name {
+    color: white;
+    font-size: 70px;
+    padding: 10px 0px 45px 0px;
+    font-family: "Old Standard TT", serif;
+    
+}
+
+.list {
+    list-style: none;
+    display: inline;
+}
+
+.anchor {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 0px 50px;  
+    font-family: "Rochester", cursive;  
+}
+
+/* background image */
+#bgimage {
+    width: 100%;
+    height: 74vh;
+}
+
+/* oruhands */
+.belowbg {
+    /* background-color: aqua;  */
+    width: 100%;
+    height: 350px;
+    padding: 75px;
+    text-align: center;
+}
+
+.Ourhands {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Rochester", cursive;
+    font-size: 60px;
+    color: rgb(71, 13, 23);
+}
+
+.ourhandspara {
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 1.40;
+    font-family: "Dancing Script", system-ui;
+}
+
+/* second part */
+.ash {
+    background-image: url('./images/nav.png');
+    background-size: cover;
+    /* background-color: rgb(253, 238, 246); */
+    width: 50%;
+    height: 650px;
+    text-align: left;
+}
+
+#dreamRing {
+    padding-left: 45px;
+    padding-top: 460px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: rgb(71, 13, 23);
+
+}
+
+.highestQuality {
+    font-size: 33px;
+    padding-left: 45px;
+    color: rgb(71, 13, 23);
+    font-family: "Old Standard TT", serif;
+}
+
+.secondpart {
+    display: flex;
+}
+
+#girlstone {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+
+#para {
+    font-size: 20px;
+    margin-top: 480px;
+    margin-left: 100px;
+    line-height: 1.40;
+    font-family: "Rochester", cursive;
+}
+
+/* third parrt */
+#Thirdpart {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 370px;
+
+}
+
+.parent {
+    display: flex;
+    position: relative;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 3 equal columns */
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(45deg, rgb(201, 201, 247), white, rgb(250, 174, 174), white, rgb(248, 186, 228));
+}
+
+.child {
+    text-align: center;
+    /* Centers the image within each div */
+    width: 100%;
+    /* Optional: adds space inside each child */
+}
+
+.child img {
+    width: 100%;
+    height: 100%;
+    /* Optional: limits image size */
+}
+
+/* 4th part */
+#head4 {
+    text-align: center;
+    /* background-color:rgb(233, 44, 44);  */
+    margin-top: 30px;
+    color: black;
+    font-size: 28px;
+}
+
+#engagement {
+    padding-bottom: 40px;
+    font-size: 60px;
+    color: rgb(71, 13, 23);
+    font-family: "Rochester", cursive;
+}
+
+#we {
+    font-size: 18px;
+    font-family: "Dancing Script", system-ui;
+}
+
+#threeimage {
+    width: 100%;
+}
+
+/* 5th part */
+.fifthpart {
+    /* background-color: aqua; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ringstone {
+    width: 350px;
+    height: 350px;
+    border-radius: 29px;
+    background-color: rgb(0, 0, 0);
+}
+
+.gg1:hover #rings1 {
+    content: url('./images/ringstone11.avif');
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+
+.gg2:hover #rings2 {
+    content: url('./images/ringstone22.avif');
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+
+.gg3:hover #rings3 {
+    content: url('./images/ringstone33.avif');
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+
+.gg4:hover #rings4 {
+    content: url('./images/ringstone44.avif');
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+
+.gg5:hover #rings5 {
+    content: url('./images/ringstone55.avif');
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+
+.gg6:hover #rings6 {
+    content: url('./images/ringstone66.avif');
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+/* 6th part */
+.sixthpara{
+    margin-top: 100px;
+    text-align: center;
+    line-height: 1.40;
+    font-size: 18px;
+    font-family: "Dancing Script", system-ui;
+    /* background-color: aqua; */
+}
+/* image part */
+.imageParent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+    width: 630px;
+    border-radius: 20px;
+}
+.img1:hover #rosegold1{
+content: url('./images/bandw1.avif');
+transition: 0.5s;
+transform: scale(1.01);
+box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+.img2:hover #rosegold2{
+    content: url('./images/bandw2.avif');
+    transition: 0.5s;
+    transform: scale(1.01);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 50);
+}
+/* melora */
+.melora{
+    text-align: center;
+    margin-top: 70px;
+    /* background-color: aqua; */
+}
+#meloraHead{
+    font-size: 50px;
+    color:rgb(78, 17, 36);
+}
+/* footer */
+footer{
+    margin-top: 70px;
+    width:100%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 80px 0px 0px 160px;
+    background-image: url(./images/nav.png);
+    background-size: cover;
+}
+.footlist{
+    margin-top: 20px;
+    list-style: none;
+    margin-bottom: 15px;
+    
+}
+.footlinks{
+    margin-right: 10px;
+    text-decoration: none;
+    color:rgb(107, 31, 55) ;
+    font-weight: 510;
+}
+.footlinks:hover{
+    text-decoration: underline;
+}
+.heading{
+    font-family: "Old Standard TT", serif;
+    font-size: 24px;
+    padding-bottom: 10px;
+    color:rgb(107, 31, 55) ;
+
+}
+.icon{
+    font-size: 30px;
+}
+
+
+
+
+
+
